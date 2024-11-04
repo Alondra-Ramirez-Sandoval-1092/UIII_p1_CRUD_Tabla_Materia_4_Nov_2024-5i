@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block cuerpo %}
+
+    <div class="row"> <!-- la fila -->
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"> <!-- columna izquierda -->
+    <h1> Mamá 😎</h1>
+    </div> <!-- columna izquierda -->
+
+    <!-- la fila --> 
+    
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 "> <!-- columna derecha -->
+        <h1> Papá??? 😧</h1>
+        <!-- tablaaa-->
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Código</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Creditos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- tablaaa-->
+    <div > <!-- columna derecha--> 
+    </div>   
+{% endblock %}
